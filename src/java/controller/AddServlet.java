@@ -22,8 +22,8 @@ import model.Product;
  *
  * @author NGUYEN LAN
  */
-@WebServlet(name="addServlet", urlPatterns={"/add"})
-public class addServlet extends HttpServlet {
+@WebServlet(name="AddServlet", urlPatterns={"/add"})
+public class AddServlet extends HttpServlet {
    
     /** 
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
@@ -36,7 +36,7 @@ public class addServlet extends HttpServlet {
     throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
+            /* outut servlet. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
