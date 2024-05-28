@@ -9353,7 +9353,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-hide {
-  font: 0/0 a;
+  font-size: 16px; /* Kích thước chữ */
+line-height: 1.5; /* Khoảng cách giữa các dòng */
+font-family: sans-serif; /* Họ phông chữ */
   color: transparent;
   text-shadow: none;
   background-color: transparent;
