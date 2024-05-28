@@ -96,8 +96,6 @@ public class addServlet extends HttpServlet {
             DBContext db = new DBContext();
             db.addProduct(p);
             
-          //  request.setAttribute("p", p);
-           // request.getRequestDispatcher("manage").forward(request, response);
            response.sendRedirect("manage");
         } catch (SQLException ex) {
             Logger.getLogger(addServlet.class.getName()).log(Level.SEVERE, null, ex);
